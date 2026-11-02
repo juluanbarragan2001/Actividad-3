@@ -1,0 +1,650 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "f59119f8-cfd7-44c0-97a8-0b4ba466b1f7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hola mundo\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hola mundo\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "ffa46175-3222-41c2-a0ef-cd66c38e1323",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "6\n"
+     ]
+    }
+   ],
+   "source": [
+    "texto = \"Python\"\n",
+    "print(len(texto))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "7bcb3807-98aa-4c4a-9c05-9b20b965614d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "edad = 25\n",
+    "print(type(edad))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "e64b0258-7819-41a7-83c8-079c79ee9e11",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "50\n",
+      "<class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "numero = int(\"50\")\n",
+    "print(numero)\n",
+    "print(type(numero))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "e560b7db-120d-4228-887e-21993ad23e54",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "25.5\n",
+      "<class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "numero = float(\"25.5\")\n",
+    "print(numero)\n",
+    "print(type(numero))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "ed0d7304-2a69-40e5-810c-fef6e04ba8a4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100\n",
+      "<class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "numero = 100\n",
+    "texto = str(numero)\n",
+    "\n",
+    "print(texto)\n",
+    "print(type(texto))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "c5ef20f8-2191-41e1-bcfd-f8ddfff4b8cb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "resultado = bool(1)\n",
+    "print(resultado)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "4a87a1f1-d581-4da3-ad71-f84633170370",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "numero = -15\n",
+    "print(abs(numero))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "212df459-85d1-436f-90c4-0ba6a8d16e7e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "numero = 8.7\n",
+    "print(round(numero))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "5cc68eba-cafa-426c-b7ef-f8ece3280b5d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100\n"
+     ]
+    }
+   ],
+   "source": [
+    "numeros = [10, 20, 30, 40]\n",
+    "print(sum(numeros))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "ad1fa3cc-41ad-4ba6-8e44-41ccbc0d8c6d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "32\n"
+     ]
+    }
+   ],
+   "source": [
+    "numeros = [15, 8, 32, 20]\n",
+    "print(max(numeros))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "9517b030-bf4e-45af-b245-6fcdc820fe9e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "8\n"
+     ]
+    }
+   ],
+   "source": [
+    "numeros = [15, 8, 32, 20]\n",
+    "print(min(numeros))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "112c123d-ac83-45d5-9389-f45224535624",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[10, 20, 30, 40]\n"
+     ]
+    }
+   ],
+   "source": [
+    "numeros = [30, 10, 40, 20]\n",
+    "print(sorted(numeros))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "bd16e4c6-5dfa-4fff-8dd6-0fb2714232bd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1, 2, 3, 4, 5]\n"
+     ]
+    }
+   ],
+   "source": [
+    "numeros = range(1, 6)\n",
+    "print(list(numeros))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "b2b8171e-e178-4a65-afdc-e25b440b747a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['P', 'y', 't', 'h', 'o', 'n']\n"
+     ]
+    }
+   ],
+   "source": [
+    "letras = list(\"Python\")\n",
+    "print(letras)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "f22727b6-9c09-4e02-a9b4-1ac28730637a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(10, 20, 30)\n"
+     ]
+    }
+   ],
+   "source": [
+    "numeros = tuple([10, 20, 30])\n",
+    "print(numeros)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "ceded73e-52e7-4ba4-ba27-e5a1516be564",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{1, 2, 3, 4}\n"
+     ]
+    }
+   ],
+   "source": [
+    "numeros = set([1, 2, 2, 3, 3, 4])\n",
+    "print(numeros)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "f2f1f460-1770-440a-b0df-499f89f3bcdf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'nombre': 'Julian', 'edad': 25}\n"
+     ]
+    }
+   ],
+   "source": [
+    "persona = dict(nombre=\"Julian\", edad=25)\n",
+    "print(persona)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "1f9ed39b-30d8-4e13-b1b7-0c5c28756861",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0 manzana\n",
+      "1 pera\n",
+      "2 uva\n"
+     ]
+    }
+   ],
+   "source": [
+    "frutas = [\"manzana\", \"pera\", \"uva\"]\n",
+    "\n",
+    "for posicion, fruta in enumerate(frutas):\n",
+    "    print(posicion, fruta)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "faf512f5-ad0a-431d-8bab-64f841dbc7b3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[('Ana', 20), ('Luis', 25), ('Carlos', 30)]\n"
+     ]
+    }
+   ],
+   "source": [
+    "nombres = [\"Ana\", \"Luis\", \"Carlos\"]\n",
+    "edades = [20, 25, 30]\n",
+    "\n",
+    "resultado = list(zip(nombres, edades))\n",
+    "print(resultado)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "649c19be-1fa6-40d7-bd53-544d4969a558",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "resultados = [False, False, True]\n",
+    "print(any(resultados))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "da0aa364-3216-40d9-8e1f-17fa3a1dff6a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "resultados = [True, True, True]\n",
+    "print(all(resultados))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "c93d89ff-5198-4b2c-9b36-bf7934e42a16",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "8\n"
+     ]
+    }
+   ],
+   "source": [
+    "resultado = pow(2, 3)\n",
+    "print(resultado)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "d367a5ec-1144-43ba-ba40-50264838e94d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(3, 1)\n"
+     ]
+    }
+   ],
+   "source": [
+    "resultado = divmod(10, 3)\n",
+    "print(resultado)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "2c219b28-7733-46c3-949d-4ce64ca14c0f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "65\n"
+     ]
+    }
+   ],
+   "source": [
+    "letra = \"A\"\n",
+    "print(ord(letra))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "06982e3b-48de-4ac2-aa00-ec1cc17ac09e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "65\n"
+     ]
+    }
+   ],
+   "source": [
+    "letra = \"A\"\n",
+    "print(ord(letra))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "18c65dab-dd26-479d-b275-cb16c6efc679",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "A\n"
+     ]
+    }
+   ],
+   "source": [
+    "numero = 65\n",
+    "print(chr(numero))"
+   
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "66f186ec-3fa4-48fb-967c-2bcf089a5e6e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Escribe tu nombre:  BRAYAN JULIAN BARRAGAN CAMPOS\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hola BRAYAN JULIAN BARRAGAN CAMPOS\n"
+     ]
+    }
+   ],
+   "source": [
+    "nombre = input(\"Escribe tu nombre: \")\n",
+    "print(\"Hola\", nombre)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "c77305e2-d6a3-4570-ac55-bd2660402a88",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[2, 4, 6, 8]\n"
+     ]
+    }
+   ],
+   "source": [
+    "numeros = [1, 2, 3, 4]\n",
+    "\n",
+    "resultado = list(map(lambda x: x * 2, numeros))\n",
+    "print(resultado)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "0e80378a-37eb-41ec-b4c2-db209de0f2b6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[2, 4, 6]\n"
+     ]
+    }
+   ],
+   "source": [
+    "numeros = [1, 2, 3, 4, 5, 6]\n",
+    "\n",
+    "resultado = list(filter(lambda x: x % 2 == 0, numeros))\n",
+    "print(resultado)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "9b3fc8ae-a2c6-4e50-b2ed-ad884cdf9891",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Help on built-in function len in module builtins:\n",
+      "\n",
+      "len(obj, /)\n",
+      "    Return the number of items in a container.\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "help(len)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1d969a67-33c0-42d7-b667-48fee627b9c0",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.14.10"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
